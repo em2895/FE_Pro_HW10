@@ -18,5 +18,5 @@ for (let index = 0; index < arr.length; index++) {
 
 arr = arr.sort(function(a, b){return a - b});
 console.log(arr);
-let removeArr = arr.splice(2, 3);
+let removeArr = arr.splice(1, 3);
 console.log(arr);
